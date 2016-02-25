@@ -1,0 +1,111 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-bracket		{ color: #31b67f; }
+span.cm-builtin     { color: #31b67f; }
+span.cm-def			{ color: #31b67f; }
+span.cm-header      { color: #31b67f; }
+span.cm-meta		{ color: #31b67f; }
+span.cm-operator	{ color: #31b67f; }
+span.cm-qualifier	{ color: #31b67f; }
+span.cm-tag			{ color: #31b67f; }
+
+span.cm-atom		{ color: #ca611b; }
+span.cm-link		{ color: #ca611b; }
+span.cm-number		{ color: #ca611b; }
+span.cm-string		{ color: #ca611b; }
+span.cm-string-2    { color: #ca611b; }
+span.cm-variable	{ color: #ca611b; }
+span.cm-variable-2	{ color: #ca611b; }
+span.cm-variable-3	{ color: #ca611b; }
+
+
+span.cm-attribute	{ color: #96aa3b; }
+span.cm-property	{ color: #96aa3b; } /* property after string */
+
+span.cm-comment		{ color: #aaa27b; }
+span.cm-error		{ color: #e93fd2; }
+span.cm-keyword		{ color: #333128; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {
+	background: #f9f8e4;
+	color: #6f6d64;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #000 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #000 !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #f9f8e4;
+	border-right: 1px solid #e5e2ce;
+}
+
+.CodeMirror-linenumber {
+	color: #b4ad87;
+}
+
+.CodeMirror-selected {
+    background: #cdebb8;
+}
+
+/* Active Line */
+
+.CodeMirror-activeline-background {
+	background: #e6fad8 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #643900;
+	background-color: transparent !important;
+}
+
+/* Matching Brackets and Tags */
+
+.CodeMirror-matchingbracket {
+    background: #cdebb8 !important;
+    color: #000 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #cdebb8 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #e93fd2 !important;
+}
+
+/* Search Match */
+
+/*
+.CodeMirror-searching {
+    background-color: #ffcd2d;
+    color: #000 !important;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #ff8500;
+}
+*/
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #f9f8e4;
+}
+
+#image-holder {
+    color: #6f6d64;
+}
